@@ -11,7 +11,7 @@ def get_info():
     data = {
         "email": "akinolaakinkunmifa@gmail.com",
         "current_datetime": datetime.utcnow().isoformat() + "Z", 
-        "github_url": "https://github.com/yourusername/your-repo" 
+        "github_url": "https://github.com/kunmifab/python-flask-api-test" 
     }
     return jsonify(data), 200 
 
